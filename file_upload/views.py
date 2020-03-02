@@ -9,7 +9,6 @@ from django.template.defaultfilters import filesizeformat
 # Create your views here.
 
 
-
 # Show file list
 def file_list(request):
     files = File.objects.all().order_by("-id")
